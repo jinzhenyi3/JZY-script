@@ -4,11 +4,11 @@ header('Content-Type: application/json; charset=utf-8');
 
 // 配置FTP信息 - 请根据你的实际情况修改
 $ftp_config = array(
-    'host' => '你的FTP主机地址',  // 例如: ftp.example.com
+    'host' => '你的FTP主机地址',
     'user' => '你的FTP用户名',
     'pass' => '你的FTP密码',
-    'dir'  => '你的FTP图片目录',  // 例如: /public_html/images/
-    'url'  => '你的网站域名'      // 例如: https://example.com/
+    'dir'  => '你的FTP图片目录',
+    'url'  => '你的网站域名'
 );
 
 // 允许的文件类型
